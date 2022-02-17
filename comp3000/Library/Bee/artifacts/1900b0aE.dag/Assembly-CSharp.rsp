@@ -343,6 +343,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/scprit/mouselook.cs"
 "Assets/scprit/playermovement.cs"
+"Assets/scprit/Targetsplan.cs"
 -langversion:8.0
 
 /deterministic

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/usertest.unity
+- path: Assets/Scenes/usertest two hand.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
