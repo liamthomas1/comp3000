@@ -53,9 +53,10 @@
     <UnityVersion>2021.1.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\scprit\Targetsplan.cs" />
     <Compile Include="Assets\scprit\playermovement.cs" />
     <Compile Include="Assets\scprit\mouselook.cs" />
-    <Compile Include="Assets\scprit\Targetsplan.cs" />
+    <Compile Include="Assets\numbercount.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
