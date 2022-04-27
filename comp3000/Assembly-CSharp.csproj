@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\scprit\Targetsplan.cs" />
     <Compile Include="Assets\scprit\playermovement.cs" />
+    <Compile Include="Assets\scprit\traget.cs" />
     <Compile Include="Assets\numbercount.cs" />
     <Compile Include="Assets\scprit\mouselook.cs" />
   </ItemGroup>

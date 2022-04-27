@@ -345,6 +345,7 @@
 "Assets/scprit/mouselook.cs"
 "Assets/scprit/playermovement.cs"
 "Assets/scprit/Targetsplan.cs"
+"Assets/scprit/traget.cs"
 -langversion:8.0
 
 /deterministic
