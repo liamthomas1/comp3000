@@ -2,8 +2,10 @@
 //
 // Purpose: The bow
 // time to think how to channge this 
-//=============================================================================
 
+//=============================================================================
+//======= Liam note from modefile copyright is own by Valve Corpration
+// so from looking into this code i have learn how they they check for what hand the bow is on as well what is arrow my goal in this is to modfile for accessablity sense and make a new sytems to be add in the code which would allow more people to play
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,7 +16,7 @@ namespace Valve.VR.InteractionSystem
 	[RequireComponent( typeof( Interactable ) )]
 	public class Longbow : MonoBehaviour
 	{
-		public enum Handedness { Left, Right };
+		public enum Handedness { Left, Right, Rightonly }; // this allow the code to know what hand 
 
 		public Handedness currentHandGuess = Handedness.Left;
 		private float timeOfPossibleHandSwitch = 0f;
@@ -25,7 +27,7 @@ namespace Valve.VR.InteractionSystem
 		public Transform handleTransform;
 
 		private Hand hand;
-		private ArrowHand arrowHand;
+		private ArrowHand arrowHand; // this is i going to geuss is the hand with the arrow 
 
 		public Transform nockTransform;
 		public Transform nockRestTransform;
