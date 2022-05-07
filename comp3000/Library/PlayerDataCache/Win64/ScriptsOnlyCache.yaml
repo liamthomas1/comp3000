@@ -2,7 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Targetsplan
-    - menu
     - numbercount
     - traget
     SteamVR.dll:
@@ -63,6 +62,8 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.ProBuilderShapeEditor
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.ProBuilderMesh
     - UnityEngine.ProBuilder.Shapes.ProBuilderShape
@@ -88,7 +89,6 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
@@ -198,8 +198,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3358}
     - Class: 114
-      Script: {instanceID: 3382}
-    - Class: 114
       Script: {instanceID: 3534}
     - Class: 114
       Script: {instanceID: 3580}
@@ -285,8 +283,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8206}
     - Class: 114
       Script: {instanceID: 8234}
-    - Class: 114
-      Script: {instanceID: 8370}
     - Class: 114
       Script: {instanceID: 8454}
     - Class: 114
@@ -2333,4 +2329,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/usertest two hand.unity
-  playerPath: C:/Users/liamh/Desktop/box in the box/box in the box first try/comp3000.exe
+  playerPath: C:/Users/liamh/Desktop/box in the box/Box in the box fix/comp3000.exe
