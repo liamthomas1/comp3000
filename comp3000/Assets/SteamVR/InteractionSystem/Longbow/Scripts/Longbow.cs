@@ -16,7 +16,7 @@ namespace Valve.VR.InteractionSystem
 	[RequireComponent( typeof( Interactable ) )]
 	public class Longbow : MonoBehaviour
 	{
-		public enum Handedness { Left, Right, Rightonly }; // this allow the code to know what hand 
+		public enum Handedness { Left, Right }; // this allow the code to know what hand 
 
 		public Handedness currentHandGuess = Handedness.Left;
 		private float timeOfPossibleHandSwitch = 0f;

@@ -7,6 +7,7 @@
 using UnityEngine;
 using System.Collections;
 
+
 namespace Valve.VR.InteractionSystem
 {
 	//-------------------------------------------------------------------------
@@ -34,6 +35,7 @@ namespace Valve.VR.InteractionSystem
 		public bool attachBalloon = false;
 
 		public Balloon.BalloonColor color = Balloon.BalloonColor.Random;
+	
 
 
 		//-------------------------------------------------
@@ -62,9 +64,12 @@ namespace Valve.VR.InteractionSystem
 
 			if ( ( Time.time > nextSpawnTime ) && autoSpawn )
 			{
+			
+
 				SpawnBalloon( color );
 				nextSpawnTime = Random.Range( minSpawnTime, maxSpawnTime ) + Time.time;
 			}
+		
 		}
 
 
@@ -115,7 +120,10 @@ namespace Valve.VR.InteractionSystem
 		public void SpawnBalloonFromEvent( int color )
 		{
 			// Copy of SpawnBalloon using int because we can't pass in enums through the event system
+
 			SpawnBalloon( (Balloon.BalloonColor)color );
+			
+
 		}
 	}
 }

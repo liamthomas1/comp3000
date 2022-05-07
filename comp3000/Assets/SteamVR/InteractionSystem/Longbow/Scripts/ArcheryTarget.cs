@@ -7,6 +7,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using UnityEngine.UI;
 
 namespace Valve.VR.InteractionSystem
 {
@@ -25,7 +26,9 @@ namespace Valve.VR.InteractionSystem
 		const float targetRadius = 0.25f;
 
 		private bool targetEnabled = true;
-
+		//Liam code
+		public Text targethit;
+		public int counthit;
 
 		//-------------------------------------------------
 		private void ApplyDamage()
@@ -46,6 +49,11 @@ namespace Valve.VR.InteractionSystem
 		{
 			if ( targetEnabled )
 			{
+				//liam code
+				targethit.text = "";
+				counthit = counthit + 1;
+				targethit.text = counthit.ToString("0");
+				//end of liam code
 				onTakeDamage.Invoke();
 				StartCoroutine( this.FallDown() );
 
@@ -76,6 +84,15 @@ namespace Valve.VR.InteractionSystem
 			}
 
 			yield return null;
+		}
+		private void Update()
+		{
+			if (Input.GetKeyDown(KeyCode.G))
+			{
+				targethit.text = null;
+				counthit = counthit + 1;
+				targethit.text = counthit.ToString("0");
+			}
 		}
 	}
 }
