@@ -345,6 +345,7 @@
 "Assets/scprit/numbercount.cs"
 "Assets/scprit/Targetsplan.cs"
 "Assets/scprit/traget.cs"
+"Assets/Totalcube.cs"
 -langversion:8.0
 
 /deterministic

@@ -59,6 +59,8 @@
     <Compile Include="Assets\scprit\numbercount.cs" />
     <Compile Include="Assets\scprit\mouselook.cs" />
     <Compile Include="Assets\scprit\menu.cs" />
+    <Compile Include="Assets\scprit\Totalcube.cs" />
+    <Compile Include="Assets\Totalcube.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -655,9 +657,6 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.OpenVR">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -711,9 +710,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenVR.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenVR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>

@@ -15,11 +15,11 @@ C:/Users/liamh/Documents/GitHub/comp3000/comp3000
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56747
+49975
 Successfully changed project path to: C:/Users/liamh/Documents/GitHub/comp3000/comp3000
 C:/Users/liamh/Documents/GitHub/comp3000/comp3000
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.01 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 104.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.17f1 (03b40fe07a36)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,318 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001854 seconds.
+Registered in 0.002034 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 113.53 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 101.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.273 seconds
+- Completed reload, in  1.268 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1274ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (471ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007645 seconds.
+Registered in 0.007277 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
+- Completed reload, in  1.524 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1535ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1525ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1321ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1302ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
+			SetupTypeCache (398ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (700ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (589ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.7 MB.
-System memory in use after: 164.9 MB.
-
-Unloading 144 unused Assets to reduce memory usage. Loaded Objects now: 4306.
-Total: 4.394800 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.185800 ms MarkObjects: 3.677900 ms  DeleteObjects: 0.264200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/scprit/Movement with mouse.cs
-  artifactKey: Guid(8477275983ed31e4a9c20cd1ba29bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scprit/Movement with mouse.cs using Guid(8477275983ed31e4a9c20cd1ba29bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dc9822badbbbbe5f630c840633ee13') in 0.060224 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007100 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1222ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1005ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (404ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3778 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.0 MB.
-System memory in use after: 160.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4310.
-Total: 3.594500 ms (FindLiveObjects: 0.287100 ms CreateObjectMapping: 0.182500 ms MarkObjects: 3.104600 ms  DeleteObjects: 0.019600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 69.101020 seconds.
-  path: Assets/modle
-  artifactKey: Guid(7996bac2bd449db4bbdaed58ccf611e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/modle using Guid(7996bac2bd449db4bbdaed58ccf611e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dacdf2467f75dff8084ab2b85555b07') in 0.009318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.448556 seconds.
-  path: Assets/sign.mtl
-  artifactKey: Guid(8d3c40e7fbe51b047803623893ce94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sign.mtl using Guid(8d3c40e7fbe51b047803623893ce94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e17ad475642fe535f75bc9061d2d9e') in 0.015180 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007371 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.194 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1194ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (995ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (417ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (339ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3777 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.1 MB.
-System memory in use after: 160.3 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4313.
-Total: 3.566600 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.145500 ms MarkObjects: 3.125700 ms  DeleteObjects: 0.017500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 195.837420 seconds.
-  path: Assets/modle/collect cube.obj
-  artifactKey: Guid(97b6e57224629a6489315b179b4d3522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/modle/collect cube.obj using Guid(97b6e57224629a6489315b179b4d3522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575d24894e0500ef5c1ff2afb1840ee3') in 0.136268 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007500 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.279 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1279ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1070ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (465ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (641ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (379ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (536ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3777 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.7 MB.
-System memory in use after: 164.9 MB.
+Unloading 3825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 163.8 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4359.
-Total: 5.743900 ms (FindLiveObjects: 1.004900 ms CreateObjectMapping: 0.656200 ms MarkObjects: 4.048500 ms  DeleteObjects: 0.033000 ms)
+Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 4288.
+Total: 3.776400 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.146700 ms MarkObjects: 3.111300 ms  DeleteObjects: 0.229200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -360,14 +133,445 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddd00b94beec37af4d48237991ef9cf') in 0.134120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.723572 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c0d5dab819ae880479f1666f7441c7') in 0.009283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1414.392994 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6c7d156ce5f58dbede472954dabf18') in 0.022205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.581913 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee4fdd9c1932b514cddd9b461b97f1f') in 0.010165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.809025 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5681c76c09ddfedc6d25a99b433d7eb8') in 0.008133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.665923 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5a1d6c7eaf1a8f52dcadc1cd6071ed') in 0.010818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.568720 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7677768741533e0e77b76919a63582') in 0.008180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.452668 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04aaa40d4864f56aa5efba93f7dca2f0') in 0.007336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.402459 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05084d3500cfa62152d64fa01a867ca') in 0.008772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.441157 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d484d001ff90643031e99ba22c5c61') in 0.007709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.802321 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beea3827a2dffcdcb73cb696b15f5807') in 0.008442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.797392 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4866b2afe4055a4d7fa918fcec1764') in 0.007776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.207711 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e4b970ef130be312e798607422def3') in 0.008994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.879046 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22a0b9d86cdea35714e47683def3391') in 0.008000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194037 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5d59a7b663e08cab4136c299e1b28d') in 0.009716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.059022 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d5083913ae6b9c6fbe672c6fc60372') in 0.007643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.328689 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a96f5146b967d3ff283e746c95eaa7') in 0.007339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.717266 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965ea4f9e1232add95b830721850b05b') in 0.009820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.986847 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1534d53b36d31e497a0d716eb8fc8885') in 0.008664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.661629 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1daf2f9498a31cb2138967b065c30a4') in 0.008151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.802873 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a255652807792915b301018fa6b7f4e6') in 0.009767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797055 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b6048f230f41b069d0c1931e50c4bc') in 0.007961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.207563 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19671dff387f17674f702e113c92df7c') in 0.007433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.462216 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5385ffbf013346f869fc01c3cc32a361') in 0.013210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.344551 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f5444dd2098014408e21185f2eff15') in 0.007893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.319421 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040d3c57f1ae5ab518acd7de6caf0685') in 0.007768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.434635 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647268a4337bc3f6a6443a9742705eed') in 0.008138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.224204 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdbaa0c49a9a7dc1050fdfa04733f22') in 0.010214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.016172 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f261cf3a894d94a2309a4bad89376d0') in 0.008497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.298249 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfc32dec2de9ce02823b809320f07ad') in 0.008575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.804213 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5090d065610341dfe3d3effdb9df94a') in 0.008197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.039575 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cecdacd000fd5bd1cb69f251a6e92f') in 0.007337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.431132 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84545abbbf131e0937d2d7b908385306') in 0.007489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.683685 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69623a40ebb9bdecea46bdd4b67d211') in 0.009917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.209626 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51c6d6a097644feea7e302b6a3560ff') in 0.008869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.682343 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8924a8e6957687ebdf640ecc98c9280b') in 0.007718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.653355 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072a152ce57709bfd331414ff57e5fac') in 0.007607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.997883 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a200cd4503dd76e91d7e7eee52f42bce') in 0.008726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.476791 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c2151128d2d6ad5213664bb367aa33') in 0.007436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.216805 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfca1ed7fea42f7498d5661a16f9604f') in 0.008172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.860594 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d18b3335c0c3cec406cd8c893bb9b0b') in 0.007352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194767 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36edc945b5b0f6864a3329951035de65') in 0.007185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.796430 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea32d2f31c8a218788e2ebd0afeb6d3') in 0.008006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.224646 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34ae868d073d6d003a1c5ea2d646d9f') in 0.008145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.016319 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd264425fd42413054b42ee59ff9e2c93') in 0.007851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593215 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d247bfae096bda9516b6c3400824f0') in 0.007682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.619971 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be7fc24fc55efed4ff8bb65c12dbc9d') in 0.009143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.284998 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a3c540c4fabf95805bd6e43b6a565a') in 0.007688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.443297 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5ed4d07267881f1a19893f2033e8ca') in 0.007921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.373170 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b2540207a50582c675506eb9764f07') in 0.008533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.875574 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e379c37b0152519270b791a41bf12d40') in 0.015497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.300891 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfee325b5dadecff8bc32876567adca') in 0.008080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.856759 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14f09d10798c1eee831bd5a192595fe') in 0.007511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.200712 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71fe9b5ee3c177d652aac2631a078a9') in 0.009149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.093271 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcf89776d472dc7f4eca3ed4ad01f1c') in 0.009961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.385050 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b40f3f1d7ba30fcb8e47553601acb7') in 0.008164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.404810 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d598a20bc08e65ea7a1b99ad5608c09') in 0.008234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.396537 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485ff540662342d7f9dc4c06aebabe3b') in 0.007622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.208058 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daae1729ced7b15d27fcdbc249fa0dd7') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.186723 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed66118dbf77fc509ffc042286f1ee87') in 0.008466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.592280 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f08da4574b88e951c0708ceefc0390b') in 0.007388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.206584 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f20979bbf954957dbbed5ebc1a7af2') in 0.008366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.807914 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775ad6338aaa72fb0714c5fea7afa6a9') in 0.010147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.395308 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c32bb8b82d3f88f0c9294bd8638d3e') in 0.009138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.762466 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a00264d9d2d725716acbf0494a73d3') in 0.007574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.851773 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad55ee16abe6be7926e1a8d4dad53c4a') in 0.007789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.436353 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8156703e6ed13f4395010fa27400569') in 0.008724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.248199 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7829fd785a2550dc6ed5beb497be09ca') in 0.009407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1212.945875 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb4c0e46ed1a454f9160089c5b43f35') in 0.019966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.600474 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23658b1103a1e4eedcfb96f86367b24') in 0.010473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.033512 seconds.
+  path: Assets/modle/oldvrrange.prefab
+  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27538abd0bfb3a8f3f0b01bcb53d26a7') in 0.008953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.377217 seconds.
+  path: Assets/Scenes/Reffere comp3000.unity
+  artifactKey: Guid(0c92fa342a5b5884d84caaebd42a76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Reffere comp3000.unity using Guid(0c92fa342a5b5884d84caaebd42a76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba01a5c59291877274e3bba8d3c3165') in 0.003778 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006300 seconds.
+Registered in 0.006649 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -379,28 +583,28 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
+- Completed reload, in  1.200 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1171ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (979ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1011ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
+			SetupTypeCache (373ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (410ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (325ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (312ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
@@ -409,12 +613,12 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3766 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.1 MB.
-System memory in use after: 164.4 MB.
+Unloading 3768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.6 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 4356.
-Total: 3.591100 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.147700 ms MarkObjects: 3.134300 ms  DeleteObjects: 0.018900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4303.
+Total: 3.415200 ms (FindLiveObjects: 0.287000 ms CreateObjectMapping: 0.164800 ms MarkObjects: 2.939900 ms  DeleteObjects: 0.022600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -428,14 +632,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 394.780917 seconds.
+  path: Assets/Totalcube.cs
+  artifactKey: Guid(8e9dc02e69ba98e419b43a1c4d833af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Totalcube.cs using Guid(8e9dc02e69ba98e419b43a1c4d833af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea7dbe972eddfcb3c30d3f6e4817327') in 0.012807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1569.716911 seconds.
+  path: Assets/Totalcube.cs
+  artifactKey: Guid(10d6123a9fe8e12479547d61e15a63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Totalcube.cs using Guid(10d6123a9fe8e12479547d61e15a63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7188ccee59059f98001fcfc95d3ce5') in 0.004589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.191020 seconds.
+  path: Assets/Totalcube.cs
+  artifactKey: Guid(10d6123a9fe8e12479547d61e15a63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Totalcube.cs using Guid(10d6123a9fe8e12479547d61e15a63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8917ff9431c2806b80c7c1e0cb086f') in 0.003701 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006311 seconds.
+Registered in 0.006371 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -447,42 +669,42 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
+- Completed reload, in  1.361 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (927ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1166ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
+			SetupTypeCache (547ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (382ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (393ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (304ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (313ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3766 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.8 MB.
-System memory in use after: 164.0 MB.
+Unloading 3768 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.7 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4359.
-Total: 3.666400 ms (FindLiveObjects: 0.291400 ms CreateObjectMapping: 0.177400 ms MarkObjects: 3.179700 ms  DeleteObjects: 0.017000 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4307.
+Total: 10.854900 ms (FindLiveObjects: 1.178600 ms CreateObjectMapping: 0.583800 ms MarkObjects: 9.004000 ms  DeleteObjects: 0.085500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -495,96 +717,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007890 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\liamh\Documents\GitHub\comp3000\comp3000\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.371 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1371ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1139ms)
-			LoadAssemblies (127ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (476ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3766 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.8 MB.
-System memory in use after: 164.0 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4362.
-Total: 4.436200 ms (FindLiveObjects: 0.313600 ms CreateObjectMapping: 0.377500 ms MarkObjects: 3.711400 ms  DeleteObjects: 0.032800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4201.538386 seconds.
-  path: Assets/modle/oldvrrange.prefab
-  artifactKey: Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/modle/oldvrrange.prefab using Guid(b5f98db19d358554f95ead6961cd2e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0869514af4a20daa6adaa6e2ad2384') in 0.101815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.364460 seconds.
-  path: Assets/Scenes/Reffere comp3000.unity
-  artifactKey: Guid(0c92fa342a5b5884d84caaebd42a76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Reffere comp3000.unity using Guid(0c92fa342a5b5884d84caaebd42a76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c9f4f1d6db3dc7d3c59954800c8477') in 0.006280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.353562 seconds.
-  path: Assets/Scenes/usertest two hand.unity
-  artifactKey: Guid(aebe0674e6ec20f45bea70c2ba1bfec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/usertest two hand.unity using Guid(aebe0674e6ec20f45bea70c2ba1bfec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8dddb281f0b834026e2931fa9c56b0') in 0.005552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.782448 seconds.
-  path: Assets/Scenes/Reffere comp3000.unity
-  artifactKey: Guid(0c92fa342a5b5884d84caaebd42a76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Reffere comp3000.unity using Guid(0c92fa342a5b5884d84caaebd42a76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54b06d655a0c39f9f47ac276ebfcef5') in 0.002539 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
