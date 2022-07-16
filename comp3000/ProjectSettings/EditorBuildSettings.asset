@@ -12,4 +12,5 @@ EditorBuildSettings:
     path: Assets/Scenes/usertest two hand.unity
     guid: aebe0674e6ec20f45bea70c2ba1bfec3
   m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: e6e23d23b0c0cc542923bddadc7eb803, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 527f216a2e6483a489cf676d9b809a99, type: 2}
