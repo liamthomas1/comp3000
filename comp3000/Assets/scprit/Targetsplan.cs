@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Targetsplan : MonoBehaviour
+public class  Targetsplan : MonoBehaviour
 {
     int test;
     public Text scoretext;

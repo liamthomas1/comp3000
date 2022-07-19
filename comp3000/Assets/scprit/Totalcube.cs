@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class Totalcube : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+        int cube;
+        GameObject cubeneed, cubehitbox;
+        bool cubeistrue = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Start is called before the first frame update
+        void Start()
+        {
+            cube = 0;
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        void cubecollect()
+        {
+            if (cubeistrue == true)
+            {
+
+            }
+        }
+        void cubehitboxcheck()
+        {
+
+        }
     }
-}

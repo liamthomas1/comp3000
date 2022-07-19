@@ -54,13 +54,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\scprit\Targetsplan.cs" />
-    <Compile Include="Assets\scprit\Movement with mouse.cs" />
+    <Compile Include="Assets\scprit\Movementmouse.cs" />
     <Compile Include="Assets\scprit\traget.cs" />
     <Compile Include="Assets\scprit\numbercount.cs" />
+    <Compile Include="Assets\Totalcube.cs" />
     <Compile Include="Assets\scprit\mouselook.cs" />
     <Compile Include="Assets\scprit\menu.cs" />
     <Compile Include="Assets\scprit\Totalcube.cs" />
-    <Compile Include="Assets\Totalcube.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
