@@ -61,6 +61,7 @@
     <Compile Include="Assets\scprit\mouselook.cs" />
     <Compile Include="Assets\scprit\menu.cs" />
     <Compile Include="Assets\scprit\Totalcube.cs" />
+    <Compile Include="Assets\scprit\TempMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
