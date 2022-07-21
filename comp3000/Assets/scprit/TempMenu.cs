@@ -24,10 +24,14 @@ public class TempMenu : MonoBehaviour
         {
             MENUon = false;
             Time.timeScale = 1;
+            MENU.SetActive(MENUon);
+            Cursor.lockState = CursorLockMode.Locked;
         }
         else if(MENUon == false){
             MENUon = true;
             Time.timeScale = 0;
+            MENU.SetActive(MENUon);
+            Cursor.lockState = CursorLockMode.Confined;
 		}
 	}
    public void exitgame()

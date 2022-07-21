@@ -97,7 +97,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
+-r:"Assets/VRolder/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
@@ -283,13 +283,13 @@
 -r:"C:/Users/liamh/Documents/GitHub/comp3000/comp3000/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/SteamVR.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
-"Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_buggy.cs"
-"Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_default.cs"
-"Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_mixedreality.cs"
-"Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_platformer.cs"
-"Assets/SteamVR_Input/SteamVR_Input_Actions.cs"
-"Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs"
-"Assets/SteamVR_Input/SteamVR_Input_Initialization.cs"
+"Assets/VRolder/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_buggy.cs"
+"Assets/VRolder/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_default.cs"
+"Assets/VRolder/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_mixedreality.cs"
+"Assets/VRolder/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_platformer.cs"
+"Assets/VRolder/SteamVR_Input/SteamVR_Input_Actions.cs"
+"Assets/VRolder/SteamVR_Input/SteamVR_Input_ActionSets.cs"
+"Assets/VRolder/SteamVR_Input/SteamVR_Input_Initialization.cs"
 -langversion:8.0
 
 /deterministic

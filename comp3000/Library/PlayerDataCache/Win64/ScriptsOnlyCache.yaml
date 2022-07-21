@@ -1,69 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Movementmouse
     - Targetsplan
+    - TempMenu
+    - Totalcube
+    - mouselook
     - numbercount
-    - traget
     SteamVR.dll:
-    - URPMaterialSwitcher
-    - Valve.VR.InteractionSystem.AllowTeleportWhileAttachedToHand
-    - Valve.VR.InteractionSystem.ArcheryTarget
-    - Valve.VR.InteractionSystem.Arrow
-    - Valve.VR.InteractionSystem.ArrowHand
-    - Valve.VR.InteractionSystem.ArrowheadRotation
-    - Valve.VR.InteractionSystem.Balloon
-    - Valve.VR.InteractionSystem.BalloonSpawner
-    - Valve.VR.InteractionSystem.BodyCollider
-    - Valve.VR.InteractionSystem.ControllerButtonHints
-    - Valve.VR.InteractionSystem.ControllerHoverHighlight
-    - Valve.VR.InteractionSystem.DebugUI
-    - Valve.VR.InteractionSystem.DestroyOnDetachedFromHand
-    - Valve.VR.InteractionSystem.DestroyOnParticleSystemDeath
-    - Valve.VR.InteractionSystem.ExplosionWobble
-    - Valve.VR.InteractionSystem.FallbackCameraController
-    - Valve.VR.InteractionSystem.FireSource
-    - Valve.VR.InteractionSystem.Hand
-    - Valve.VR.InteractionSystem.HandCollider
-    - Valve.VR.InteractionSystem.HandPhysics
-    - Valve.VR.InteractionSystem.HideOnHandFocusLost
-    - Valve.VR.InteractionSystem.IgnoreTeleportTrace
-    - Valve.VR.InteractionSystem.InputModule
-    - Valve.VR.InteractionSystem.Interactable
-    - Valve.VR.InteractionSystem.ItemPackage
-    - Valve.VR.InteractionSystem.ItemPackageReference
-    - Valve.VR.InteractionSystem.ItemPackageSpawner
-    - Valve.VR.InteractionSystem.LinearAnimator
-    - Valve.VR.InteractionSystem.LinearMapping
-    - Valve.VR.InteractionSystem.Longbow
-    - Valve.VR.InteractionSystem.PlaySound
-    - Valve.VR.InteractionSystem.Player
-    - Valve.VR.InteractionSystem.RenderModel
-    - Valve.VR.InteractionSystem.SeeThru
-    - Valve.VR.InteractionSystem.SnapTurn
-    - Valve.VR.InteractionSystem.SoundBowClick
-    - Valve.VR.InteractionSystem.SoundDeparent
-    - Valve.VR.InteractionSystem.SoundPlayOneshot
-    - Valve.VR.InteractionSystem.Teleport
-    - Valve.VR.InteractionSystem.TeleportArc
-    - Valve.VR.InteractionSystem.TeleportArea
-    - Valve.VR.InteractionSystem.TeleportPoint
-    - Valve.VR.InteractionSystem.TeleportURPHelper
-    - Valve.VR.InteractionSystem.Unparent
-    - Valve.VR.SteamVR_ActivateActionSetOnLoad
-    - Valve.VR.SteamVR_Behaviour
-    - Valve.VR.SteamVR_Behaviour_Pose
     - Valve.VR.SteamVR_Behaviour_Skeleton
     - Valve.VR.SteamVR_ExternalCamera
-    - Valve.VR.SteamVR_Fade
-    - Valve.VR.SteamVR_Overlay
-    - Valve.VR.SteamVR_PlayArea
-    - Valve.VR.SteamVR_Render
-    - Valve.VR.SteamVR_RenderModel
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
-    Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.ProBuilderShapeEditor
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.ProBuilderMesh
     - UnityEngine.ProBuilder.Shapes.ProBuilderShape
@@ -74,8 +23,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.OpenVR.dll:
-    - Unity.XR.OpenVR.OpenVRLoader
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -89,16 +36,14 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Outline
     - UnityEngine.UI.Text
     - UnityEngine.UIElements.PanelRaycaster
   sceneClasses:
-    Assets/Scenes/usertest two hand.unity:
+    Assets/Scenes/NewMainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -117,23 +62,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
-    - Class: 75
-      Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -147,167 +78,122 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1568}
+      Script: {instanceID: 1552}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1600}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 2696}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 1680}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 3022}
     - Class: 114
-      Script: {instanceID: 1952}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 2124}
+      Script: {instanceID: 3604}
     - Class: 114
-      Script: {instanceID: 2132}
+      Script: {instanceID: 4104}
     - Class: 114
-      Script: {instanceID: 2136}
+      Script: {instanceID: 5012}
     - Class: 114
-      Script: {instanceID: 2260}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 2324}
+      Script: {instanceID: 6936}
     - Class: 114
-      Script: {instanceID: 2374}
-    - Class: 114
-      Script: {instanceID: 2388}
-    - Class: 114
-      Script: {instanceID: 2556}
-    - Class: 114
-      Script: {instanceID: 2730}
-    - Class: 114
-      Script: {instanceID: 2780}
-    - Class: 114
-      Script: {instanceID: 2792}
-    - Class: 114
-      Script: {instanceID: 2916}
-    - Class: 114
-      Script: {instanceID: 3040}
-    - Class: 114
-      Script: {instanceID: 3138}
-    - Class: 114
-      Script: {instanceID: 3248}
-    - Class: 114
-      Script: {instanceID: 3346}
-    - Class: 114
-      Script: {instanceID: 3358}
-    - Class: 114
-      Script: {instanceID: 3534}
-    - Class: 114
-      Script: {instanceID: 3580}
-    - Class: 114
-      Script: {instanceID: 3596}
-    - Class: 114
-      Script: {instanceID: 3626}
-    - Class: 114
-      Script: {instanceID: 3684}
-    - Class: 114
-      Script: {instanceID: 3686}
-    - Class: 114
-      Script: {instanceID: 3728}
-    - Class: 114
-      Script: {instanceID: 3848}
-    - Class: 114
-      Script: {instanceID: 3858}
-    - Class: 114
-      Script: {instanceID: 3922}
-    - Class: 114
-      Script: {instanceID: 4066}
-    - Class: 114
-      Script: {instanceID: 4100}
-    - Class: 114
-      Script: {instanceID: 4126}
-    - Class: 114
-      Script: {instanceID: 4134}
-    - Class: 114
-      Script: {instanceID: 4404}
-    - Class: 114
-      Script: {instanceID: 4498}
-    - Class: 114
-      Script: {instanceID: 4790}
-    - Class: 114
-      Script: {instanceID: 4842}
-    - Class: 114
-      Script: {instanceID: 4878}
-    - Class: 114
-      Script: {instanceID: 5034}
-    - Class: 114
-      Script: {instanceID: 5144}
-    - Class: 114
-      Script: {instanceID: 5380}
-    - Class: 114
-      Script: {instanceID: 5638}
-    - Class: 114
-      Script: {instanceID: 5762}
-    - Class: 114
-      Script: {instanceID: 5884}
-    - Class: 114
-      Script: {instanceID: 6074}
-    - Class: 114
-      Script: {instanceID: 6186}
-    - Class: 114
-      Script: {instanceID: 6270}
-    - Class: 114
-      Script: {instanceID: 6396}
-    - Class: 114
-      Script: {instanceID: 6574}
-    - Class: 114
-      Script: {instanceID: 6616}
-    - Class: 114
-      Script: {instanceID: 6638}
-    - Class: 114
-      Script: {instanceID: 6768}
-    - Class: 114
-      Script: {instanceID: 6968}
-    - Class: 114
-      Script: {instanceID: 7074}
-    - Class: 114
-      Script: {instanceID: 7178}
-    - Class: 114
-      Script: {instanceID: 7446}
-    - Class: 114
-      Script: {instanceID: 7552}
-    - Class: 114
-      Script: {instanceID: 7674}
-    - Class: 114
-      Script: {instanceID: 7756}
-    - Class: 114
-      Script: {instanceID: 7986}
-    - Class: 114
-      Script: {instanceID: 8206}
-    - Class: 114
-      Script: {instanceID: 8234}
-    - Class: 114
-      Script: {instanceID: 8454}
-    - Class: 114
-      Script: {instanceID: 8698}
-    - Class: 114
-      Script: {instanceID: 8760}
+      Script: {instanceID: 7952}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 124
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 134
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Reffere comp3000.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1552}
+    - Class: 114
+      Script: {instanceID: 1566}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 2106}
+    - Class: 114
+      Script: {instanceID: 2468}
+    - Class: 114
+      Script: {instanceID: 2696}
+    - Class: 114
+      Script: {instanceID: 2774}
+    - Class: 114
+      Script: {instanceID: 3022}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 4474}
+    - Class: 114
+      Script: {instanceID: 6106}
+    - Class: 114
+      Script: {instanceID: 6366}
+    - Class: 114
+      Script: {instanceID: 6936}
+    - Class: 114
+      Script: {instanceID: 8824}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
-      Script: {instanceID: 0}
-    - Class: 138
-      Script: {instanceID: 0}
-    - Class: 153
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -324,14 +210,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 241
-      Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
-      Script: {instanceID: 0}
-    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -570,10 +448,10 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 82a3e78aee60460c3b58d6f15b02f0a0
+      Hash: 14d749d8b9bc2318cf6b0efd4a4aad3d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: playermovement
+    className: Movementmouse
   - hash:
       serializedVersion: 2
       Hash: eade5a5efd53b0e50dfe8fb48b76f0f7
@@ -592,6 +470,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 127d34cd1c91dd921d0339a8d9cdbe48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TempMenu
   - hash:
       serializedVersion: 2
       Hash: 4a03f6b1ff196600b4f44591c20b6e2b
@@ -1294,6 +1178,12 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
     className: ArrowHand
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Totalcube
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2125,12 +2015,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.XR.OpenVR.dll
-    namespaceName: Unity.XR.OpenVR
-    className: OpenVRLoader
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem.Sample
     className: JoeJeffGestures
@@ -2170,12 +2054,6 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR
     className: SteamVR_LoadLevel
-  - hash:
-      serializedVersion: 2
-      Hash: 2443caa27902449f1eb355f2bd6c7d3e
-    assemblyName: Unity.XR.OpenVR.dll
-    namespaceName: Unity.XR.OpenVR
-    className: OpenVRSettings
   - hash:
       serializedVersion: 2
       Hash: 581f3710e1186967c9213e3923915a29
@@ -2268,6 +2146,12 @@ ScriptsOnlyBuild:
     className: SteamVR_Behaviour_Boolean
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Totalcube
+  - hash:
+      serializedVersion: 2
       Hash: 66a76d307baa3e8eb65d877c961f1b43
     assemblyName: Cinemachine.dll
     namespaceName: 
@@ -2328,5 +2212,6 @@ ScriptsOnlyBuild:
     className: SteamVR_Behaviour_Single
   platform: 19
   scenePathNames:
-  - Assets/Scenes/usertest two hand.unity
-  playerPath: C:/Users/liamh/Desktop/box in the box/Box in the box fix/comp3000.exe
+  - Assets/Scenes/NewMainMenu.unity
+  - Assets/Scenes/Reffere comp3000.unity
+  playerPath: C:/Users/liamh/Desktop/testbulid/Bulid with the background/comp3000.exe

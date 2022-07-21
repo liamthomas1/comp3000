@@ -97,7 +97,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
+-r:"Assets/VRolder/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
@@ -292,16 +292,18 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.XR.Management.ref.dll"
--r:"Library/Bee/artifacts/1900b0aP.dag/Unity.XR.OpenVR.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/numbercount.cs"
-"Assets/scprit/menu.cs"
 "Assets/scprit/mouselook.cs"
-"Assets/scprit/playermovement.cs"
+"Assets/scprit/Movementmouse.cs"
+"Assets/scprit/New Folder/menu.cs"
+"Assets/scprit/numbercount.cs"
 "Assets/scprit/Targetsplan.cs"
+"Assets/scprit/TempMenu.cs"
+"Assets/scprit/Totalcube.cs"
 "Assets/scprit/traget.cs"
+"Assets/Totalcube.cs"
 -langversion:8.0
 
 /deterministic

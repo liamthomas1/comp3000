@@ -110,7 +110,7 @@
 -define:XR_MGMT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
+-r:"Assets/VRolder/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -322,16 +322,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/SteamVR/Editor/SteamVR_AutoEnableVR_2018to2019.cs"
-"Assets/SteamVR/Editor/SteamVR_AutoEnableVR_2019plus.cs"
-"Assets/SteamVR/Editor/SteamVR_AutoEnableVR_5.4to2018.cs"
-"Assets/SteamVR/Editor/SteamVR_Editor.cs"
-"Assets/SteamVR/Editor/SteamVR_Preferences.cs"
-"Assets/SteamVR/Editor/SteamVR_RenderModelEditor.cs"
-"Assets/SteamVR/Editor/SteamVR_SkyboxEditor.cs"
-"Assets/SteamVR/Editor/SteamVR_UnitySettingsWindow.cs"
-"Assets/SteamVR/Editor/SteamVR_Update.cs"
-"Assets/SteamVR/Editor/SteamVR_UpdateModeEditor.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_AutoEnableVR_2018to2019.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_AutoEnableVR_2019plus.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_AutoEnableVR_5.4to2018.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_Editor.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_Preferences.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_RenderModelEditor.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_SkyboxEditor.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_UnitySettingsWindow.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_Update.cs"
+"Assets/VRolder/SteamVR/Editor/SteamVR_UpdateModeEditor.cs"
 -langversion:8.0
 
 /deterministic

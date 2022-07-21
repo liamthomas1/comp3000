@@ -14,6 +14,9 @@ public class Movementmouse : MonoBehaviour
     public Text timer;
     public Text controlslayout;
     public bool changecontrols = false;
+    Vector3 Velocity;
+    public float gravity = -9f;
+   
     // Update is called once per frame 
     void Update()
     {
@@ -54,6 +57,7 @@ public class Movementmouse : MonoBehaviour
                 returnzero();
             }
         }
+	  
         
     }
 
@@ -97,6 +101,8 @@ public class Movementmouse : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * speed * Time.deltaTime);
+        Velocity.y += gravity * Time.deltaTime;
+        controller.Move(Velocity * Time.deltaTime);
     }
     void returnzero()
 	{
@@ -128,5 +134,6 @@ public class Movementmouse : MonoBehaviour
               ;
         }
 	}
+ 
 }
 
