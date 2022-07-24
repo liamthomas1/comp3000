@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 92
+  controlID: 93
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 417
+    width: 201
     height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -164,14 +164,14 @@ MonoBehaviour:
   - {fileID: 9}
   m_Position:
     serializedVersion: 2
-    x: 417
+    x: 201
     y: 0
-    width: 1026
+    width: 1242
     height: 947
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 93
+  controlID: 94
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1026
+    width: 1242
     height: 609
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -218,7 +218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 609
-    width: 1026
+    width: 1242
     height: 338
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -367,7 +367,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1920
     y: 73
-    width: 416
+    width: 200
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -375,7 +375,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5063ffff9663ffff6a64ffff7864ffffc667ffff0668ffff7a6bffff886bffffca9bffff20f1ffff26f2ffff66f2ffffdaf5ffffdef5ffff50fbffffb65b00004a61000064610000866100004a660000
+      m_ExpandedIDs: f0ebfffff4ebffff34ecffff50fbffff945b0000cc5b00001c6300004663000058630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -391,7 +391,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 10}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -480,9 +480,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2337
+    x: 2121
     y: 73
-    width: 1024
+    width: 1240
     height: 588
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 1
@@ -496,9 +496,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 377.01096, y: 229.15747, z: -98.28931}
+    m_Target: {x: 5.7414856, y: 1.3335271, z: 2.5384383}
     speed: 2
-    m_Value: {x: 377.01096, y: 229.15747, z: -98.28931}
+    m_Value: {x: 5.7414856, y: 1.3335271, z: 2.5384383}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -545,13 +545,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08833693, y: -0.03405646, z: 0.0030011637, w: -0.99553484}
+    m_Target: {x: -0.12316931, y: -0.6863286, z: 0.11955859, w: -0.7068064}
     speed: 2
-    m_Value: {x: -0.0883342, y: -0.034055408, z: 0.003001071, w: -0.9955041}
+    m_Value: {x: -0.122984484, y: -0.6873581, z: 0.119738, w: -0.70574546}
   m_Size:
-    m_Target: 425.38672
+    m_Target: 24.353773
     speed: 2
-    m_Value: 425.38672
+    m_Value: 23.305046
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -621,9 +621,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2337
+    x: 2121
     y: 682
-    width: 1024
+    width: 1240
     height: 317
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -639,22 +639,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/modle
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/modle
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\liamh\Documents\GitHub\comp3000\comp3000
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e5c0000
-    m_LastClickedID: 23598
-    m_ExpandedIDs: 00000000165c0000185c00001a5c00001c5c00001e5c0000205c0000225c0000245c00002a5c0000
+    m_SelectedIDs: 4e5c0000
+    m_LastClickedID: 23630
+    m_ExpandedIDs: 00000000405c0000425c0000445c0000465c0000485c00004a5c00004c5c00004e5c0000545c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -682,7 +682,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000165c0000185c00001a5c00001c5c00001e5c0000205c0000225c0000245c0000
+    m_ExpandedIDs: 00000000405c0000425c0000445c0000465c0000485c00004a5c00004c5c00004e5c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

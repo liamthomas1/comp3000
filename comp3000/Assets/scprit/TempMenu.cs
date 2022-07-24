@@ -44,6 +44,7 @@ public class TempMenu : MonoBehaviour
 	}
    public void Exittomenu()
 	{
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
 	}
 }
