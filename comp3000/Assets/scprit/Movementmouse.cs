@@ -16,6 +16,7 @@ public class Movementmouse : MonoBehaviour
     public bool changecontrols = false;
     Vector3 Velocity;
     public float gravity = -9f;
+    private float speedscore = 0f; 
    
     // Update is called once per frame 
     void Update()
