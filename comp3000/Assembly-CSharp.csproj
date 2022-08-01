@@ -59,6 +59,7 @@
     <Compile Include="Assets\scprit\Targetsplan.cs" />
     <Compile Include="Assets\scprit\Movementmouse.cs" />
     <Compile Include="Assets\scprit\TempMenu.cs" />
+    <Compile Include="Assets\scprit\checkifcubecollect.cs" />
     <Compile Include="Assets\scprit\traget.cs" />
     <Compile Include="Assets\scprit\numbercount.cs" />
     <Compile Include="Assets\Totalcube.cs" />
