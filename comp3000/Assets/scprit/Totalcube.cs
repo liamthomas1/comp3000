@@ -18,8 +18,8 @@ public class Totalcube : MonoBehaviour
                                  // Start is called before the first frame update
     private void Awake()
 	{
-        
-		movementmouse = Player.GetComponent<Movementmouse>();
+        CUBEANSWERS = Random.Range(1, 12);
+        movementmouse = Player.GetComponent<Movementmouse>();
 	}
 	void Start()
         {
@@ -30,11 +30,13 @@ public class Totalcube : MonoBehaviour
         void Update()
         {
         cube = movementmouse.speed;
+        //Debug.Log(cube);
        
             LookatSpeed.text = CUBEANSWERS.ToString("0.00");
             //Debug.Log(CUBEANSWERS);
         RandomNUMBERHERE();
-        }
+       
+    }
 
         void cubecollect()
         {
