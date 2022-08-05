@@ -9,7 +9,7 @@ public class Movementmouse : MonoBehaviour
     public float speedgain = 1f; // speed gain when button hit
     public float speedlost = -1f; // speed lost when button hit
     public float speedmax = 12f;
-    public float speedmaxunder = -12f;
+    public float speedmaxunder = 0f;
     public Text speedtext;
     public Text timer;
     public Text controlslayout;

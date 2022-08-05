@@ -11,9 +11,12 @@ public class checkifcubecollect : MonoBehaviour
 	Totalcube totalcube;
 	Movementmouse movementmouse;
 	public GameObject playscore;
+	public GameObject OBJECTSTOREMOVE;
+	public GameObject OBJECTSTOADD;
+	public GameObject Collidercube;
 	public Text Showpoints;
 	string points;
-	float pointNumber;
+	public float pointNumber;
 	float checkspeed;
 	// Start is called before the first frame update
 	private void Awake()
@@ -29,6 +32,7 @@ public class checkifcubecollect : MonoBehaviour
 
 		Debug.Log(Answerstocube);
 		score();
+		
 
 	}
 	 void Update()
@@ -41,11 +45,12 @@ public class checkifcubecollect : MonoBehaviour
 		checkspeed = movementmouse.speed;
 		if (checkspeed == Answerstocube)
 		{
-			pointNumber = pointNumber + 1;
-			points = pointNumber.ToString();
-			Showpoints.text = "you have this this amount of ponts" + points;
+			pointNumber = totalcube.cube + 1;
+			
 			Debug.Log("it work");
 			Debug.Log(pointNumber);
+			Destroy(OBJECTSTOADD.GetComponent<BoxCollider>());
+			Destroy(OBJECTSTOREMOVE); 
 		}
 		else if (checkspeed < Answerstocube || checkspeed > Answerstocube) {
 			Showpoints.text = "you have the wrong speed";
