@@ -15,6 +15,7 @@ public class checkifcubecollect : MonoBehaviour
 	public GameObject OBJECTSTOADD;
 	public GameObject Collidercube;
 	public Text Showpoints;
+	public Text showpointstoplay;
 	string points;
 	public float pointNumber;
 	float checkspeed;
@@ -37,8 +38,10 @@ public class checkifcubecollect : MonoBehaviour
 	}
 	 void Update()
 	{
+		Answerstocube = totalcube.CUBEANSWERS;
 		//Test = totalcube.CUBEANSWERS;
 		//Debug.Log(Test);
+		showpointstoplay.text = Answerstocube.ToString();
 	}
  	void score()
 	{
@@ -46,7 +49,8 @@ public class checkifcubecollect : MonoBehaviour
 		if (checkspeed == Answerstocube)
 		{
 			pointNumber = totalcube.cube + 1;
-			
+			totalcube.cube = pointNumber;
+			Showpoints.text = totalcube.cube.ToString();
 			Debug.Log("it work");
 			Debug.Log(pointNumber);
 			Destroy(OBJECTSTOADD.GetComponent<BoxCollider>());
