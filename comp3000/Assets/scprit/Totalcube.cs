@@ -30,7 +30,7 @@ public class Totalcube : MonoBehaviour
 	}
 	void Start()
         {
-        cube = 0;
+        
         }
 
         // Update is called once per frame
@@ -38,7 +38,7 @@ public class Totalcube : MonoBehaviour
         {
        
         
-            cube = CUBEHERE.pointNumber ;
+            
        
             scoretrack.text = Pointtextscore + cube.ToString("0") + Pointtotal;
         

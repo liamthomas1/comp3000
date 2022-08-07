@@ -295,6 +295,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/scprit/checkifcubecollect.cs"
 "Assets/scprit/mouselook.cs"
 "Assets/scprit/Movementmouse.cs"
 "Assets/scprit/New Folder/menu.cs"
@@ -303,7 +304,6 @@
 "Assets/scprit/TempMenu.cs"
 "Assets/scprit/Totalcube.cs"
 "Assets/scprit/traget.cs"
-"Assets/Totalcube.cs"
 -langversion:8.0
 
 /deterministic

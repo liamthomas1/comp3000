@@ -48,9 +48,11 @@ public class checkifcubecollect : MonoBehaviour
 		checkspeed = movementmouse.speed;
 		if (checkspeed == Answerstocube)
 		{
+		 totalcube.CUBEANSWERS = Random.Range(1, 12);
+			Debug.Log(totalcube.cube);
 			pointNumber = totalcube.cube + 1;
-			totalcube.cube = pointNumber;
-			Showpoints.text = totalcube.cube.ToString();
+			totalcube.cube = pointNumber ;
+			Showpoints.text = pointNumber.ToString();
 			Debug.Log("it work");
 			Debug.Log(pointNumber);
 			Destroy(OBJECTSTOADD.GetComponent<BoxCollider>());
