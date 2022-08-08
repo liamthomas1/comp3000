@@ -9,4 +9,7 @@ so for any changes of the code will have // add by Liam so you can see what chan
 This is done for the university of plymouth during my last year project which is called box in the box which was going be a vr game but accessablity become a big factor for the changes of the project 
 
 
+New update
+Box in the box or box in a box has been update with remove of the vr setting and into a new setting the code that you can use which is create by me allow anyone to set a level where you can create a game using the play speed to see if they are going the right speed to pick up the object
+
 Create by Liam 
