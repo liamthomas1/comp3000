@@ -1,5 +1,8 @@
 # comp3000
-this is last year project for plymouth uni 
+this is last project for plymouth uni  made during 2022 
+this whole project got me into accessablity.
+i keeping the old text here to show case how far i got now after uni
+
 Hello this project is called Box in a Box
 this game go into accessabity tool that could be use in vr in gernal
  
